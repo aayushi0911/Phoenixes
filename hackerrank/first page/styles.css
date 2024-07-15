@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.cont{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    padding: 0 20px; 
+    flex-direction: column;
+    text-align: center; 
+}
+
+.logo-container {
+    width: 48px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+.store {
+    font-size: 18px;
+}
+
+.first{
+    font-size: 28px;
+}
+.sec{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic; 
+}
+
+.cont .card{
+    width: 42vw;
+    height: 120px;
+    border: 3px solid rgb(6, 6, 6);
+    border-radius: 20px;
+    position: relative;
+}
+.card1{
+    background-image: url("myn-Photoroom.jpg");
+}
+.red, .green , .blue,.yellow, .purple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    bottom: 12px;
+}
+
+.red .button, .green .button, .blue .button,.yellow .button,.purple .button {
+    display: flex;
+    padding: 5px;
+}
+.red .first , .green .first, .blue .first,.yellow .first,.purple .first{
+padding: 10px 0px;
+}
+.button{
+    padding-top: 18px;
+    font-weight: bolder;
+}
+
+.txt.one,
+.txt.two,
+.txt.three {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.txt.one:hover,
+.txt.two:hover,
+.txt.three:hover {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.card2{
+    background-image: url("fwd-Photoroom.jpg");
+}
+.card3{
+    background-image: url("luxe-Photoroom.jpg");
+}
+.card4{
+    background-image: url("genziee.jpg");
+}
+.card5{
+    background-image: url("sustfash.jpg");
+}

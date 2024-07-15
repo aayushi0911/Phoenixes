@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcycling</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://iconape.com/wp-content/png_logo_vector/myntra-logo.png">
+</head>                       
+<body>
+    <header class="myntra-header">
+        <div class="container1">
+            <div class="logo">
+                <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/myntraclone/logo.png" alt="Myntra Logo">
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Gen-Z</a></li>
+                    <li><a href="#">SustFashion</a></li>
+                    <li><a href="#">Groupshop</a></li>
+                    <li><a href="#">Studio</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products, brands, and more">
+            </div>
+            <div class="user-profile">
+                <a href="#">Profile</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Bag</a>
+            </div>
+        </div>
+    </header>
+                
+    
+
+    
+    <div class="background-slider">
+        <div class="slides">
+            <div class="slide"><img src="https://i.pinimg.com/originals/f2/c1/70/f2c1705f0a74e3be205b24b0be8a3dc2.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="https://i.pinimg.com/originals/f0/e0/49/f0e0490b7ba867c727231d19cc338456.jpg" alt="Image 2"></div>
+            <div class="slide"><img src="https://i.pinimg.com/736x/7f/d3/5e/7fd35e00e1105d2c40b9384b741641c0.jpg" alt="Image 3"></div>
+            <div class="slide"><img src="https://i.pinimg.com/originals/f2/c1/70/f2c1705f0a74e3be205b24b0be8a3dc2.jpg" alt="Image 4"></div>
+            <div class="slide"><img src="https://i.pinimg.com/originals/f0/e0/49/f0e0490b7ba867c727231d19cc338456.jpg" alt="Image 5"></div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <h1>Upcycling Fashion</h1>
+        <form id="recycleForm">
+            <div class="form-group">
+                <label for="clothType">Type of Cloth:</label>
+                <select id="clothType" name="clothType">
+                    <option value="tshirt">T-shirt</option>
+                    <option value="shorts">Shorts</option>
+                    <option value="dress">Dress</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="material">Material of Cloth:</label>
+                <select id="material" name="material">
+                    <option value="cotton">Cotton</option>
+                    <option value="denim">Denim</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="color">Color of Cloth:</label>
+                <select id="color" name="color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="upload">Upload Picture of Cloth:</label>
+                <input type="file" id="upload" name="upload" accept="image/*">
+            </div>
+            <button type="button" id="getSuggestions">Get AI Suggestions</button>
+        </form>
+        <div id="suggestions"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

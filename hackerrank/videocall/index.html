@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroupCall</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png"
+        href="https://iconape.com/wp-content/png_logo_vector/myntra-logo.png"/>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.svg" alt="logo">
+        </div>
+        <div>Men</div>
+        <div>Women</div>
+        <div>Kids</div>
+        <div>GenZ</div>
+        <div>Sustfash</div>
+        <div>Groupshop</div>
+        <div>Studio</div>
+        <div class="search">
+            <div class="im"><img src="search.svg" alt="search"></div>
+            <div class="txt">Search for products, brands and more</div>
+        </div>
+        <div>Profile</div>
+        <div>Wishlist</div>
+        <div>Bag</div>
+    </header>
+    <div class="groupcall">
+        <div class="head">
+            <div class="arrow"><img src="arrow.svg" alt=""></div>
+            <div class="logos">
+                <img src="add.svg" alt="">
+                <img src="search.svg" alt="">
+                <img src="setting.svg" alt="">
+            </div>
+        </div>
+        <div class="cont">
+            <div class="person">
+                <div class="text">XYZ</div>
+                <div class="avatar"><img src="avatar1.avif" alt=""></div>
+            </div>
+            <div class="person">
+                <div class="text">ABC</div>
+                <div class="avatar"><img src="ava2.avif" alt=""></div>
+            </div>
+            <div class="person">
+                <div class="text">MNO</div>
+                <div class="avatar"><img src="ava3.avif" alt=""></div>
+            </div>
+            <div class="person">
+                <div class="text">pqr</div>
+                <div class="avatar"><img src="ava4.avif" alt=""></div>
+            </div>
+            <div class="person">
+                <div class="text">std</div>
+                <div class="avatar"><img src="ava5.avif" alt=""></div>
+            </div>
+
+        </div>
+        <div class="func">
+            <div class="call">Video Call</div>
+            <div class="add">
+                <div class="select">
+                    <label for="friends"></label><select name="contacts" id="contacts">
+                        <option value="-">Add a Friend</option>
+                        <option value="Priyanka">Priyanka</option>
+                        <option value="Aayushi">Aayushi</option>
+                        <option value="Sakshi">Sakshi</option>
+                        <option value="Garv">Garv</option>
+                        <option value="Rajdeep">Rajdeep</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.call').addEventListener('click', function () {
+            window.open('http://127.0.0.1:5500/main%20page/myntrahome.html', '_blank');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+body{
+    background-image: url("vc.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: unset;
+}
+header{
+    width: 96vw;
+    height: 60px;
+    display: flex;
+    gap: 22px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Assistant", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+    top: 0;
+}
+header .logo{
+    width: 48px;
+    padding-left: 20px;
+}
+header .search{
+    height: 34px;
+    border-radius: 3px;
+    width: auto;
+    background-color: rgb(181, 178, 178);
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.search .im{
+    width: 16px;
+    padding: 4px ;
+
+}
+.search .txt {
+    padding: 4px;
+    color: white;
+}
+.groupcall{
+    height: 80vh;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    
+}
+.head{
+    height: 40px;
+    width: 498px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+.cont .person {
+    height: 55px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(223, 238, 213)
+}
+.person .avatar img{
+    width: 45px;
+    border-radius: 50%;
+}
+.person .text{
+    font-family: "Assistant", sans-serif; 
+    font-weight:700;
+}
+.logos img{
+padding: 8px;
+}
+.arrow{
+    padding: 8px;
+}
+.call{
+    height: 18px;
+    width: 100px;
+    background-color: rgb(117, 201, 117);
+    padding: 12px;
+    border-radius: 22px;
+    text-align: center;
+}
+.func{
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+}
+.add{
+    height: 18px;
+    width: 100px;
+    background-color: rgb(123, 149, 228);
+    padding: 12px;
+    border-radius: 22px;
+    text-align: center;
+
+}
